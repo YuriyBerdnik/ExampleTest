@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "name": "distributor-ui-test",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tsc --noEmit",
+    "start": "yarn webpack --watch --mode=development",
+    "build": "export NODE_ENV=production&&yarn webpack --mode=production"
+  },
+  "dependencies": {
+    "@babel/cli": "7.17.6",
+    "@babel/core": "7.17.8",
+    "@babel/preset-env": "7.16.11",
+    "@babel/preset-typescript": "7.16.7",
+    "@types/express": "4.17.13",
+    "@types/node": "18.0.0",
+    "@types/puppeteer": "^5.4.6",
+    "@types/webpack-env": "1.17.0",
+    "@typescript-eslint/eslint-plugin": "5.29.0",
+    "@typescript-eslint/parser": "5.29.0",
+    "babel-loader": "8.2.5",
+    "body-parser": "1.20.0",
+    "compression": "1.7.4",
+    "cookie-parser": "1.4.6",
+    "eslint": "8.11.0",
+    "express": "4.18.1",
+    "nodemon-webpack-plugin": "4.7.1",
+    "path": "0.12.7",
+    "puppeteer": "14.1.0",
+    "qaseio": "2.0.1",
+    "terser-webpack-plugin": "5.3.1",
+    "tslib": "2.4.0",
+    "typescript": "4.6.4",
+    "webpack": "5.72.0",
+    "webpack-cli": "4.9.2"
+  }
+}

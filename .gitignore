@@ -1,0 +1,25 @@
+#docker
+deploy/Dockerfile.node.development
+
+#IDE
+.idea
+
+#build
+node_modules
+build
+.env
+
+#yarn
+yarn-error.log
+
+#apk
+# Path to the JDK: C:\Program Files\Java\jdk1.8.0_211
+# Path to the Android SDK: C:\Users\serge\AppData\Local\Android\Sdk
+app/
+gradle/
+build.gradle
+gradle.properties
+gradlew
+gradlew.bat
+settings.gradle
+twa-manifest.json
